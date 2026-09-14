@@ -61,7 +61,7 @@ def show_turn(turn: dict[str, Any]) -> None:
 
 
 def main() -> None:
-    st.set_page_config(page_title="Northstar Helpdesk Agent", page_icon="🛠️", layout="wide")
+    st.set_page_config(page_title="Northstar Helpdesk Agent", page_icon="💻", layout="wide")
     st.title("Northstar Helpdesk Agent")
     st.caption("Lab UI: one shared model-tool loop, visible tool traces, and versioned transcripts.")
 
